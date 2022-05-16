@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+	--Blue: rgb(88, 71, 235);
+	--Orange: rgb(255, 140, 102); /** WORK **/
+	--SkyBlue: rgb(86, 194, 230); /** PLAY **/
+	--Pink: rgb(255, 92, 124); /** STUDY **/
+	--Green: rgb(74, 207, 129); /** EXERCISE **/
+	--Purple: rgb(117, 54, 211); /** SOCIAL **/
+	--Mango: rgb(241, 198, 91); /** SELF CARE **/
+	--BlueCharcoal: rgb(15, 20, 36);
+	--DarkBlue: rgb(28, 31, 74);
+	--LightBlue: rgb(111, 118, 200);
+	--LightBlueGrey: rgb(189, 193, 255);
+	--White: rgb(255, 255, 255);
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	font-family: 'Rubik', sans-serif;
 }
 
 .attribution {
