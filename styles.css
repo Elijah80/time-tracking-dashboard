@@ -24,6 +24,8 @@
 body {
 	font-size: 18px;
 	font-family: 'Rubik', sans-serif;
+	background-color: var(--BlueCharcoal);
+	color: var(--LightBlueGrey);
 }
 
 .attribution {
