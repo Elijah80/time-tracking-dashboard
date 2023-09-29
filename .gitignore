@@ -1,2 +1,5 @@
+# Folders to ignore
 /design
-.README-instructions.md
+
+# Files to ignore
+.READMEStart.md
