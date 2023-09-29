@@ -2,4 +2,4 @@
 /design
 
 # Files to ignore
-.READMEStart.md
+*/.READMEStart.md
