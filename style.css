@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 :root {
-  /** Primary Colors **/
+	/** Primary Colors **/
 	--Blue: hsl(246, 80%, 60%);
 	--LightRed-work: hsl(15, 100%, 70%);
 	--SoftBlue: hsl(195, 74%, 62%);
@@ -10,27 +10,35 @@
 	--Violet: hsl(264, 64%, 52%);
 	--SoftOrange: hsl(43, 84%, 65%);
 
-  /** Neutral Colors **/
+	/** Neutral Colors **/
 	--VeryDarkBlue: hsl(226, 43%, 10%);
 	--DarkBlue: hsl(235, 46%, 20%);
 	--LightBlue: hsl(235, 45%, 61%);
 	--PaleBlue: hsl(236, 100%, 87%);
 
-  /** Fonts **/
+	/** Fonts **/
 	--rubik-300: 'Rubik', sans-serif;
 	--rubik-400: 'Rubik', sans-serif;
 	--rubik-500: 'Rubik', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 1px;
-  line-height: 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 1px;
+	line-height: 20px;
 }
 
+/** Style Provided with starter files from Front End Mentor: https://www.frontendmentor.io/home **/
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
 
 /**  ## Layout
 
