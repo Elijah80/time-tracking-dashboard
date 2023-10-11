@@ -29,6 +29,14 @@
 	margin: 0;
 	letter-spacing: 1px;
 	line-height: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--VeryDarkBlue);
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
 }
 
 /** Style Provided with starter files from Front End Mentor: https://www.frontendmentor.io/home **/
