@@ -56,3 +56,50 @@ The designs were created to the following widths:
 - Desktop: 1440px  **/
 
 /** Font size: 18px (card titles e.g. Work, Play) **/
+
+/** Container **/
+.container {
+	display: grid;
+	grid-template-columns: 16.06em 1.875em 1fr;
+	margin: 15.9375em auto;
+
+	width: 1112px;
+	height: 521px;
+}
+
+/** Sidebar **/
+.sidebar {
+	background-color: var(--DarkBlue);
+	border-radius: 20px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.profile-section {
+	background-color: var(--LightBlue);
+	border-radius: 20px;
+	height: 355px;
+	padding-top: 35px;
+	padding-left: 30px;
+}
+
+.profile-image {
+	border-radius: 50%;
+	border: 5px solid #fff;
+	margin-bottom: 40px;
+	width: 50%;
+}
+
+.sidebar .header {
+	font-size: .9em;
+	color: var(--PaleBlue);
+	font-family: var(--rubik-300);
+	margin-bottom: 15px;
+}
+
+.name {
+	font-family: var(--rubik-300);
+	font-size: 3em;
+	line-height: 1em;
+}
