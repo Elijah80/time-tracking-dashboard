@@ -125,3 +125,12 @@ The designs were created to the following widths:
 .active-timeframe {
 	color: #fff;
 }
+
+/** Card Content **/
+.card-section {
+	grid-column: 3;
+	display: grid;
+	grid-template-columns: 255px 255px 255px;
+	grid-template-rows: 245px 245px;
+	gap: 32px;
+}

@@ -8,8 +8,12 @@ fetch('./data.json')
     .filter(item => item.timeframes)
     .map(item => Object.keys(item.timeframes))
     .slice(0, 1);
+    const categories = data
+    .filter(item => item.title)
+    .map(item => item.title);
 
     createSidebar(name, timeFrames);
+    createCardSection(categories);
 	})
 
 function createElement(type, className) {
@@ -55,4 +59,15 @@ function createSidebar(name, timeframes){
   sideBar.appendChild(linkSection);
 
   container.appendChild(sideBar);
+}
+
+
+function createCardSection(activities){
+  const cardSection = createElement('div', 'card-section');
+
+  activities.forEach(activity => {
+    console.log(activity);
+  })
+
+  container.appendChild(cardSection);
 }
