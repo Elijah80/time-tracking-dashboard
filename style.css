@@ -71,15 +71,15 @@ The designs were created to the following widths:
 .sidebar {
 	background-color: var(--DarkBlue);
 	border-radius: 20px;
-	height: 100%;
-	width: 100%;
+	display: grid;
+	grid-template-rows: 355px 1fr;
 	overflow: hidden;
 }
 
 .profile-section {
 	background-color: var(--LightBlue);
 	border-radius: 20px;
-	height: 355px;
+	grid-row: 1;
 	padding-top: 35px;
 	padding-left: 30px;
 }
@@ -102,4 +102,25 @@ The designs were created to the following widths:
 	font-family: var(--rubik-300);
 	font-size: 3em;
 	line-height: 1em;
+}
+
+.link-section {
+	grid-row: 2;
+	list-style: none;
+	text-decoration: none;
+}
+
+.link-item {
+	color: var(--PaleBlue);
+	margin-left: 30px;
+	margin-top: 25px;
+	text-transform: capitalize;
+}
+
+.link-item:hover {
+	color: #fff;
+}
+
+.active-timeframe {
+	color: #fff;
 }

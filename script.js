@@ -27,6 +27,7 @@ function createSidebar(name, timeframes){
   const header = createElement('p', 'header');
   const userName = createElement('p', 'name');
   const linkSection = createElement('div', 'link-section');
+  const timeFrameLinks = createElement('ul', 'timeframe-links');
 
   profileImage.setAttribute('src', './images/self.png');
 
@@ -37,8 +38,18 @@ function createSidebar(name, timeframes){
   profileSection.appendChild(header);
   profileSection.appendChild(userName);
 
-  console.log(timeframes);
+  timeframes[0].forEach(item => {
+    const linkItem = createElement('li', 'link-item');
+
+    linkItem.textContent = item;
+
+    timeFrameLinks.appendChild(linkItem);
+  })
+
+  linkSection.appendChild(timeFrameLinks);
 
   sideBar.appendChild(profileSection);
+  sideBar.appendChild(linkSection);
+
   container.appendChild(sideBar);
 }
