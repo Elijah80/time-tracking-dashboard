@@ -117,8 +117,9 @@ The designs were created to the following widths:
 	text-transform: capitalize;
 }
 
-.link-item:hover {
+.link-text:hover {
 	color: #fff;
+	cursor: pointer;
 }
 
 .active-timeframe {

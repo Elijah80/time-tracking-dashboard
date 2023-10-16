@@ -40,8 +40,11 @@ function createSidebar(name, timeframes){
 
   timeframes[0].forEach(item => {
     const linkItem = createElement('li', 'link-item');
+    const linkText = createElement('span', 'link-text');
 
-    linkItem.textContent = item;
+    linkText.textContent = item;
+
+    linkItem.appendChild(linkText);
 
     timeFrameLinks.appendChild(linkItem);
   })
